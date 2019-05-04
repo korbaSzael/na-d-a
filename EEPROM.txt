@@ -1,0 +1,13 @@
+#include <EEPROM.h>
+template <class mita> void EEPROMw(int jossa, const mita& arvo){
+    const byte* paalle = (const byte*)(const void*)&arvo;
+    for (int vaihe = 0; vaihe < sizeof(arvo); vaihe++)EEPROM.write(jossa++, *paalle++);}
+template <class mita> void EEPROMr(int jossa, mita& arvo){
+    byte* paalle = (byte*)(void*)&arvo;
+    for (int vaihe = 0; vaihe < sizeof(arvo); vaihe++)*paalle++ = EEPROM.read(jossa++);}
+
+void setup() {
+ int juoni=7;
+ EEPROMr(0,juoni);
+ Serial.begin(9600);
+Serial.println(juoni);}

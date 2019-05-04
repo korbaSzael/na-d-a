@@ -1,0 +1,32 @@
+﻿nRF,433    randomnerdtutorials.com
+* http://www.wch.cn/downloads/file/5.html
+AC stä DC https://www.youtube.com/watch?v=jLXW6qVdfq4
+DC stä AC 6min https://www.youtube.com/watch?v=4_WeiNolP5M
+DC ^ https://www.youtube.com/watch?v=g1BXAfzC89g
+DC v "youtube.com/watch?v=2FKLqhZD3ac&list=PL0oxIZsFGA4Gi78Nssj9rYMnKQHmhSXPw&index=11"﻿
+pnp npn "youtube.com/watch?v=KkO5hoIAwTg"
+(R1 * R2)/(R1 + R2) "learnabout-electronics.org/Resistors/resistors_20.php"﻿
+amp "quora.com/How-does-resistor-exactly-reduce-current-flow-in-circuit"
+photoresistor,eeprom,pir,rfid "sparkfun.com/search/results?term=gps"﻿
+DC v "learnabout-electronics.org/PSU/psu31.php"﻿
+DC v&a "pl.wikipedia.org/wiki/Przekszta%C5%82tnik_buck"﻿
+wifi3 "youtube.com/watch?v=RaYZxqUTNWU"﻿
+diode? "learnabout-electronics.org/Semiconductors/diodes_28.php"﻿
+dioda+ "youtube.com/watch?v=20WkWZxJtM8"﻿
+battery? youtube.com/watch?v=mKPKQm0uPBQ﻿
+IR pilot instructables.com/id/Arduino-Infrared-Remote-tutorial/﻿
+bluetooth instructables.com/id/Arduino-Bluetooth/﻿
+433a https://www.youtube.com/watch?v=KA_YE7AvFn0&feature=youtube
+433b http://www.airspayce.com/mikem/arduino/RadioHead/
+433c fritzing.org/projects/rf-433mhz-transmitterreceiver-module-with-arduino //433 radioHead﻿
+kaiuttimet https://eduinf.waw.pl/inf/prg/009_kurs_avr/2015.php
+transistori rakentaminen https://eduinf.waw.pl/inf/prg/009_kurs_avr/2008.php
+sleepArduino http://gammon.com.au/power﻿
+ANDROID    youtube.com/watch?v=z0SIUufCeis&list=PLA009F4FE5B202282
+ANDROID    youtube.com/watch?v=yuSwdEEtVy4&list=PL07TSwd5SmKYB7tRpg4EnTp71FZoVjIhS
+atlas    youtube.com/watch?v=s6UlWMkEOGU&list=PL07TSwd5SmKbg8zrM3fAIWAEg2VVh6SYB
+youtube    youtube.com/watch?v=TlwNwWtVVT0&index=2&list=PL07TSwd5SmKbg8zrM3fAIWAEg2VVh6SYB
+NE555    youtube.com/watch?v=me27xTvsEEg&list=PL07TSwd5SmKYL8uosfjRcMDYy9Wlj2txR&index=12
+IPmaa    youtube.com/watch?v=99IbRsgv6JE&index=13&list=PL07TSwd5SmKbg8zrM3fAIWAEg2VVh6SYB
+google🔍    youtube.com/watch?v=MuOMIplRRKI&list=PL07TSwd5SmKbg8zrM3fAIWAEg2VVh6SYB&index=17﻿
+SMS,RFID,MQ-2    pl.scribd.com/document/392899459/18-Arduino-Projects-eBook-Rui-Santos-pdf

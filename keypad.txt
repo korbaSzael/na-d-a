@@ -1,0 +1,19 @@
+#include <Keypad.h>
+//Keypad by Mark Stanley, Alexander Brevig
+const byte runoja = 4, rivia = 4;
+char jarjestely[runoja][rivia] = {
+  {'1','2','3','A'},
+  {'4','5','6','B'},
+  {'7','8','9','C'},
+  {'*','0','#','D'}
+};
+byte runojaHaarukka[runoja] = {0, 8, 2, 3};
+byte riviaHaarukka[rivia] = {4, 5, 6, 7};
+Keypad nappaimisto = Keypad( makeKeymap(jarjestely), runojaHaarukka, riviaHaarukka, runoja, rivia); 
+void setup(){Serial.begin(9600);}
+void loop(){
+  char alas = nappaimisto.getKey();
+  if (alas){
+    Serial.println(alas);
+  }
+}

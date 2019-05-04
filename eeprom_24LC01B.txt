@@ -1,0 +1,30 @@
+#include <Wire.h>    
+#define tahtoa 0x50
+void setup(void)
+{
+  Serial.begin(9600);
+  Wire.begin();  
+  int jossa = 36;
+  writeEEPROM(tahtoa,jossa,6);
+  Serial.print(readEEPROM(tahtoa,jossa));
+}
+void loop(){}
+ 
+void writeEEPROM(int esiintyvyys,int jossa,byte todella) 
+{
+  Wire.beginTransmission(esiintyvyys);
+  Wire.write(jossa); //addr
+  Wire.write(todella); //val
+  Wire.endTransmission();
+  delay(5);
+}
+ 
+byte readEEPROM(int esiintyvyys,int jossa) 
+{
+  Wire.beginTransmission(esiintyvyys);
+  Wire.write(jossa); //addr
+  Wire.endTransmission(false);
+  Wire.requestFrom(esiintyvyys, 1);
+  byte todella = Wire.read();
+  return todella;
+}
