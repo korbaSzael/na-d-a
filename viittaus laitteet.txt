@@ -1,4 +1,5 @@
-﻿nRF,433    randomnerdtutorials.com
+﻿
+nRF,433    randomnerdtutorials.com
 * http://www.wch.cn/downloads/file/5.html
 AC stä DC https://www.youtube.com/watch?v=jLXW6qVdfq4
 DC stä AC 6min https://www.youtube.com/watch?v=4_WeiNolP5M
